@@ -18,7 +18,7 @@
 short int PORTDcodes[] = {12, 8, 24, 16, 48, 32, 36, 4}; 
 
 int angleToStep(int a) {
-  return int(64.0/45.0*double(a));
+  return int(256.0/45.0*double(a));
 }
 
 void _step(short int l, short int r, int dir) {
